@@ -1,0 +1,33 @@
+.header{
+    margin: 1rem;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.header-text{
+    font-family: Montserrat;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+
+
+.header-links{
+    outline: none;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.links{
+    color: black;
+    font-family: Poppins;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}

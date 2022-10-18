@@ -1,0 +1,1024 @@
+.home{
+
+    margin: 3rem;
+    justify-content: center;
+    /* height: 100%; */
+   
+}
+
+main {
+    margin: auto;
+    width: 990px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.feedback{
+    /* border: 1px solid gray; */
+    padding: 2rem;
+    height: 100%;
+
+}
+
+h1{
+    font-family: Poppins !important;
+    letter-spacing: 1px;
+}
+
+p{
+    font-family: Poppins !important;
+    margin:  0.5rem 0rem 2rem;
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: left;
+    align-items: center;
+    display: flex;
+    letter-spacing: 1px !important;
+}
+
+form{
+    flex-wrap: wrap;
+}
+
+.form-details1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-details1{
+    width: 100%;
+    margin-right: 3rem;
+}
+
+.errorText{
+    color: red;
+    /* background-color: rgb(241, 218, 218); */
+    padding: 0.2rem 0.2rem 0.2rem 0.2rem;
+    border-radius: 5px;
+    /* text-align: left; */
+    /* display: flex; */
+}
+
+
+
+h3{
+    font-family: Poppins;
+
+}
+
+
+input[type=text]{
+    width: 100%;
+    flex: 1;
+    outline: none;
+    padding: 0.6rem 10rem 0.6rem 1rem;
+    margin: 0.5rem 0rem 0rem 0rem;
+    border: 1px solid rgb(171, 163, 163);
+    font-size: 1rem;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+
+input[type=email]{
+    flex: 1;
+    width: 100%;
+    outline: none;
+    padding: 0.6rem 10rem 0.6rem 1rem;
+    margin: 0.5rem 0rem 0rem 0rem;
+    font-size: 1rem;
+    border: 1px solid rgb(171, 163, 163);
+    border-radius: 5px;
+    letter-spacing: 1px;
+
+}
+
+.phone_input , .PhoneInputInput{
+    flex: 1;
+    width: 45%;
+    padding:  0.8rem;
+    
+    margin: 8px 0;
+    font-size: 1rem;
+    letter-spacing: 1px;
+
+}
+
+.PhoneInputInput{
+    outline: none !important;
+    border: none;
+    border: 1px solid rgb(171, 163, 163);
+    border-radius: 5px !important;
+}
+
+.phoneLabel{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.radioButton{
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+input[type=radio] , label{
+    padding: 0rem 1rem 0rem 1rem;
+    font-family: Poppins;
+}
+
+input[type=radio]{
+ cursor: pointer;
+
+}
+
+.feedback-text{
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: Poppins;
+    margin: 0rem 0rem 1rem !important ;
+}
+
+.feedback-options{
+    display: flex;
+    /* text-align:left; */
+
+}
+
+.feedback-details1{
+    width: 100%;
+    /* margin-bottom: 2rem; */
+}
+
+.feedback-details2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+
+}
+
+.feedback-options1{
+    display: flex;
+    text-align:left;
+
+}
+
+.feedback-dets1{
+    width: 100%;
+    /* margin-bottom: 2rem; */
+}
+
+.feedback-dets2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.button{
+    text-align: end;
+    margin-right: 2rem;
+}
+
+button{
+    margin-top: 2rem;
+    padding: 0.8rem 1.3rem;
+    outline: none;
+    font-family: Poppins;
+    letter-spacing: 1px;    
+    font-size: 1rem;
+    background-color:forestgreen;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Table */
+
+.table-responsive{
+    padding-top:3rem;
+    width: 900px;
+    margin: auto; 
+    height: 100%;
+}
+
+.table{
+    display: flex;
+    justify-content: center;
+}
+
+.table-row{
+    background-color: rgb(234, 210, 246);
+}
+
+.tableElememts{
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem;
+    align-items: center;
+}
+
+.search{
+    outline: none;
+    border: 1px solid lightgray;
+    padding: 0.8rem 2rem 0.8rem 0.7rem;
+    letter-spacing: 0.5px;
+    font-family: Poppins;
+    font-size: 1rem;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.delete{
+    cursor: pointer;
+}
+
+
+/* media for medium-large screen */
+
+@media screen and (max-width : 990px) {
+
+    .home{
+
+        margin: 3rem;
+        justify-content: center;
+        overflow-x: scroll;
+       
+    }
+
+    main {
+        /* margin: auto; */
+        width: 100%;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+    
+    h1{
+        font-family: Poppins !important;
+        letter-spacing: 1px;
+        font-size: 1.5rem;
+    }
+    
+    p{
+        font-family: Poppins !important;
+        margin:  0.5rem 0rem 2rem;
+        display: flex;
+        flex-wrap: nowrap;
+        text-align: left;
+        align-items: center;
+        display: flex;
+        letter-spacing: 1px !important;
+        font-size: 0.8rem;
+    }
+    
+    form{
+        flex-wrap: wrap;
+    }
+    
+    .form-details1{
+        display: flex;
+        flex-direction: column;
+        /* width: 90%; */
+        /* justify-content: space-between; */
+    }
+    
+    .input-details1{
+        width: 100%;
+        margin-right: 3rem;
+    }
+    
+    .errorText{
+        color: red;
+        /* background-color: rgb(241, 218, 218); */
+        padding: 0.2rem 0.2rem 0.2rem 0.2rem;
+        border-radius: 5px;
+        /* text-align: left; */
+        /* display: flex; */
+    }
+    
+    
+    
+    h3{
+        font-family: Poppins;
+    
+    }
+    
+    
+    input[type=text]{
+        width: 100%;
+        flex: 1;
+        outline: none;
+        padding: 0.6rem 10rem 0.6rem 1rem;
+        margin: 0.5rem 0rem 0rem 0rem;
+        border: 1px solid rgb(171, 163, 163);
+        font-size: 1rem;
+        border-radius: 5px;
+        letter-spacing: 1px;
+    }
+    
+    input[type=email]{
+        flex: 1;
+        width: 100%;
+        outline: none;
+        padding: 0.6rem 10rem 0.6rem 1rem;
+        margin: 0.5rem 0rem 0rem 0rem;
+        font-size: 1rem;
+        border: 1px solid rgb(171, 163, 163);
+        border-radius: 5px;
+        letter-spacing: 1px;
+    
+    }
+    
+    .phone_input , .PhoneInputInput{
+        flex: 1;
+        width: 100%;
+        padding:  0.8rem;
+        
+        margin: 8px 0;
+        font-size: 1rem;
+        letter-spacing: 1px;
+    
+    }
+    
+    .PhoneInputInput{
+        outline: none !important;
+        border: none;
+        border: 1px solid rgb(171, 163, 163);
+        border-radius: 5px !important;
+    }
+    
+    .phoneLabel{
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    
+    .radioButton{
+        display: flex;
+        /* flex-direction: column; */
+        /* justify-content: space-between; */
+    }
+    
+    input[type=radio] , label{
+        padding: 0rem 1rem 0rem 1rem;
+        font-family: Poppins;
+    }
+    
+    input[type=radio]{
+     cursor: pointer;
+    
+    }
+    
+    .feedback-text{
+        font-size: 1rem;
+        font-weight: bold;
+        font-family: Poppins;
+        margin: 0rem 0rem 1rem !important ;
+    }
+    
+    .feedback-options{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        /* text-align:left; */
+        align-items: center !important;
+        justify-content: center;
+    }
+    
+    .feedback-details1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* margin-bottom: 2rem; */
+    }
+    
+    .feedback-details2{
+        width: 100%;
+        /* display: flex; */
+        flex-direction: column;
+        align-items:center;
+
+    
+    }
+    
+    .feedback-options1{
+        display: flex;
+        flex-direction: column;
+        text-align:center;
+    
+    }
+    
+    .feedback-dets1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* margin-bottom: 2rem; */
+    }
+    
+    .feedback-dets2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+    }
+    
+    .button{
+        text-align: end;
+        margin-right: 2rem;
+    }
+    
+    button{
+        margin-top: 2rem;
+        padding: 0.8rem 1.3rem;
+        outline: none;
+        font-family: Poppins;
+        letter-spacing: 1px;    
+        font-size: 1rem;
+        background-color:forestgreen;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    
+/* Table */
+
+.table-responsive{
+    padding-top:3rem;
+    width: 100%;
+    margin: auto; 
+    height: 900px;
+    overflow-y: scroll;
+}
+
+.css-1ndpvdd-MuiTableCell-root{
+    font-size: 0.7rem !important;
+}
+
+td{
+    font-size: 0.7rem !important;
+}
+
+.table{
+    display: flex;
+    justify-content: center;
+}
+
+.table-row{
+    background-color: rgb(234, 210, 246);
+}
+
+.tableElememts{
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem;
+    align-items: center;
+}
+
+.search{
+    outline: none;
+    border: 1px solid lightgray;
+    padding: 0.8rem 1rem 0.8rem 0.7rem;
+    letter-spacing: 0.5px;
+    font-family: Poppins;
+    font-size: 0.7rem;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+    .delete{
+        cursor: pointer;
+    }
+}
+
+
+/* media for small-medium screen*/
+@media screen and (max-width : 780px) {
+    .home{
+
+        margin: 0rem;
+        justify-content: center;
+        overflow-x: scroll;
+       
+    }
+
+    main {
+        /* margin: auto; */
+        width: 100%;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+    
+    h1{
+        font-family: Poppins !important;
+        letter-spacing: 1px;
+        font-size: 1rem;
+    }
+    
+    p{
+        font-family: Poppins !important;
+        margin:  0.5rem 0rem 2rem;
+        display: flex;
+        flex-wrap: nowrap;
+        text-align: left;
+        align-items: center;
+        display: flex;
+        letter-spacing: 1px !important;
+        font-size: 0.6rem;
+        text-align: center;
+    }
+    
+    form{
+        flex-wrap: wrap;
+    }
+    
+    .form-details1{
+        display: flex;
+        flex-direction: column;
+        /* width: 90%; */
+        /* justify-content: space-between; */
+    }
+    
+    .input-details1{
+        width: 100%;
+        margin-right: 3rem;
+    }
+    
+    .errorText{
+        color: red;
+        /* background-color: rgb(241, 218, 218); */
+        padding: 0.2rem 0.2rem 0.2rem 0.2rem;
+        border-radius: 5px;
+        /* text-align: left; */
+        /* display: flex; */
+    }
+    
+    
+    
+    h3{
+        font-family: Poppins;
+        font-size: 1rem;
+    }
+    
+    
+    input[type=text]{
+        width: 100%;
+        flex: 1;
+        outline: none;
+        padding: 0.6rem 10rem 0.6rem 1rem;
+        margin: 0.5rem 0rem 0rem 0rem;
+        border: 1px solid rgb(171, 163, 163);
+        font-size: 1rem;
+        border-radius: 5px;
+        letter-spacing: 1px;
+    }
+    
+    input[type=email]{
+        flex: 1;
+        width: 100%;
+        outline: none;
+        padding: 0.6rem 10rem 0.6rem 1rem;
+        margin: 0.5rem 0rem 0rem 0rem;
+        font-size: 1rem;
+        border: 1px solid rgb(171, 163, 163);
+        border-radius: 5px;
+        letter-spacing: 1px;
+    
+    }
+    
+    .phone_input , .PhoneInputInput{
+        flex: 1;
+        width: 100%;
+        padding:  0.8rem;
+        
+        margin: 8px 0;
+        font-size: 1rem;
+        letter-spacing: 1px;
+    
+    }
+    
+    .PhoneInputInput{
+        outline: none !important;
+        border: none;
+        border: 1px solid rgb(171, 163, 163);
+        border-radius: 5px !important;
+    }
+    
+    .phoneLabel{
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    
+    .radioButton{
+        display: flex;
+        /* flex-direction: column; */
+        /* justify-content: space-between; */
+    }
+    
+    input[type=radio] , label{
+        padding: 0rem 1rem 0rem 1rem;
+        font-family: Poppins;
+    }
+    
+    input[type=radio]{
+     cursor: pointer;
+    
+    }
+    
+    .feedback-text{
+        text-align: center;
+        font-size: 12px;
+        font-weight: bold;
+        font-family: Poppins;
+        margin: 0rem 0rem 1rem !important ;
+    }
+    
+    .feedback-options{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        /* text-align:left; */
+        align-items: center !important;
+        justify-content: center;
+    }
+    
+    .feedback-details1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* margin-bottom: 2rem; */
+    }
+    
+    .feedback-details2{
+        width: 100%;
+        /* display: flex; */
+        flex-direction: column;
+        align-items:center;
+
+    
+    }
+    
+    .feedback-options1{
+        display: flex;
+        flex-direction: column;
+        text-align:center;
+    
+    }
+    
+    .feedback-dets1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* margin-bottom: 2rem; */
+    }
+    
+    .feedback-dets2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+    }
+    
+    .button{
+        text-align: end;
+        margin-right: 2rem;
+    }
+    
+    button{
+        margin-top: 2rem;
+        padding: 0.8rem 1.3rem;
+        outline: none;
+        font-family: Poppins;
+        letter-spacing: 1px;    
+        font-size: 1rem;
+        background-color:forestgreen;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+        
+/* Table */
+
+.table-responsive{
+    padding-top:3rem;
+    width: 100%;
+    margin: auto; 
+    height: 900px;
+    padding: 2rem;
+    overflow-y: scroll;
+}
+
+.css-1ndpvdd-MuiTableCell-root{
+    font-size: 0.7rem !important;
+}
+
+td{
+    font-size: 0.7rem !important;
+}
+
+.table{
+    display: flex;
+    justify-content: center;
+}
+
+.table-row{
+    background-color: rgb(234, 210, 246);
+}
+
+.tableElememts{
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem;
+    align-items: center;
+}
+
+.search{
+    outline: none;
+    border: 1px solid lightgray;
+    padding: 0.8rem 1rem 0.8rem 0.7rem;
+    letter-spacing: 0.5px;
+    font-family: Poppins;
+    font-size: 0.7rem;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+    .delete{
+        cursor: pointer;
+    }
+}
+
+/* media for small screen  */
+
+@media screen and (max-width : 470px) {
+    .home{
+
+        margin: 0rem;
+        justify-content: center;
+        overflow-x: scroll;
+        
+       
+    }
+
+    main {
+        /* margin: auto; */
+        width: 100%;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+    
+    h1{
+        font-family: Poppins !important;
+        letter-spacing: 1px;
+        font-size: 1rem;
+    }
+    
+    p{
+        font-family: Poppins !important;
+        margin:  0.5rem 0rem 2rem;
+        display: flex;
+        flex-wrap: nowrap;
+        text-align: left;
+        align-items: center;
+        display: flex;
+        letter-spacing: 1px !important;
+        font-size: 9.25px;
+        text-align: start;
+    }
+    
+    form{
+        flex-wrap: wrap;
+    }
+    
+    .form-details1{
+        display: flex;
+        flex-direction: column;
+        /* width: 90%; */
+        /* justify-content: space-between; */
+    }
+    
+    .input-details1{
+        width: 100%;
+        margin-right: 3rem;
+    }
+    
+    .errorText{
+        color: red;
+        /* background-color: rgb(241, 218, 218); */
+        padding: 0.2rem 0.2rem 0.2rem 0.2rem;
+        border-radius: 5px;
+        /* text-align: left; */
+        /* display: flex; */
+    }
+    
+    
+    
+    h3{
+        font-family: Poppins;
+        font-size: 1rem;
+    }
+    
+    
+    input[type=text]{
+        width: 100%;
+        flex: 1;
+        outline: none;
+        padding: 0.6rem 10rem 0.6rem 1rem;
+        margin: 0.5rem 0rem 0rem 0rem;
+        border: 1px solid rgb(171, 163, 163);
+        font-size: 1rem;
+        border-radius: 5px;
+        letter-spacing: 1px;
+    }
+    
+    input[type=email]{
+        flex: 1;
+        width: 100%;
+        outline: none;
+        padding: 0.6rem 10rem 0.6rem 1rem;
+        margin: 0.5rem 0rem 0rem 0rem;
+        font-size: 1rem;
+        border: 1px solid rgb(171, 163, 163);
+        border-radius: 5px;
+        letter-spacing: 1px;
+    
+    }
+    
+    .phone_input , .PhoneInputInput{
+        flex: 1;
+        width: 100%;
+        padding:  0.8rem;
+        
+        margin: 8px 0;
+        font-size: 1rem;
+        letter-spacing: 1px;
+    
+    }
+    
+    .PhoneInputInput{
+        outline: none !important;
+        border: none;
+        border: 1px solid rgb(171, 163, 163);
+        border-radius: 5px !important;
+    }
+    
+    .phoneLabel{
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    
+    .radioButton{
+        display: flex;
+        /* flex-direction: column; */
+        /* justify-content: space-between; */
+    }
+    
+    input[type=radio] , label{
+        padding: 0rem 1rem 0rem 1rem;
+        font-family: Poppins;
+        font-size: 0.7rem
+    }
+    
+    input[type=radio]{
+     cursor: pointer;
+    
+    }
+    
+    .feedback-text{
+        text-align: center;
+        font-size: 12px;
+        font-weight: bold;
+        font-family: Poppins;
+        margin: 0rem 0rem 1rem !important ;
+    }
+    
+    .feedback-options{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        /* text-align:left; */
+        align-items: center !important;
+        justify-content: center;
+    }
+    
+    .feedback-details1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* margin-bottom: 2rem; */
+    }
+    
+    .feedback-details2{
+        width: 100%;
+        /* display: flex; */
+        flex-direction: column;
+        align-items:center;
+
+    
+    }
+    
+    .feedback-options1{
+        display: flex;
+        flex-direction: column;
+        text-align:center;
+    
+    }
+    
+    .feedback-dets1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* margin-bottom: 2rem; */
+    }
+    
+    .feedback-dets2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+    }
+    
+    .button{
+        text-align: center;
+        margin-right: 0;
+    }
+    
+    button{
+        margin-top: 2rem;
+        padding: 0.7rem 1rem;
+        outline: none;
+        font-family: Poppins;
+        letter-spacing: 1px;    
+        font-size: 0.6rem;
+        background-color:forestgreen;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    /* Table */
+
+.table-responsive{
+    padding-top:3rem;
+    width: 100%;
+    margin: auto; 
+    height: 900px;
+    padding: 2rem;
+    
+}
+
+.css-1ndpvdd-MuiTableCell-root{
+    font-size: 0.5rem !important;
+}
+
+td{
+    font-size: 0.5rem !important;
+}
+
+.css-1ndpvdd-MuiTableCell-root{
+    padding-right: 5px!important ;
+}
+
+.table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: scroll;
+}
+
+.MuiPaper-root{
+    overflow: scroll;
+}
+
+.table-row{
+    background-color: rgb(234, 210, 246);
+}
+
+.tableElememts{
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem;
+    align-items: center;
+}
+
+.search{
+    outline: none;
+    border: 1px solid lightgray;
+    padding: 0.8rem 1rem 0.8rem 0.7rem;
+    letter-spacing: 0.5px;
+    font-family: Poppins;
+    font-size: 0.7rem;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+    .delete{
+        cursor: pointer;
+    }
+}
+
